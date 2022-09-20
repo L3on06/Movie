@@ -27,6 +27,48 @@ var swiper = new Swiper(".mySwiper", {
                 prevEl: ".swiper-button-prev"
             }
 });
+
+
+
+function addCard() {
+    let title = document.getElementById('title');
+    let paragraf = document.getElementById('paragraf');
+       
+    let flex = document.querySelector('.flex');
+
+
+let div = document.createElement('div');
+div.className = "card";
+
+    let a = document.createElement('a');
+a.href = '#'
+
+    let img = document.createElement("img");
+img.src = './sourse/Images/Movies/2.jpg';
+
+
+
+let cardBody = document.createElement('div');
+cardBody.className = "card-body";
+
+let h1 = document.createElement('h1');
+h1.innerText = title.value;
+
+let p = document.createElement('p');
+p.innerText = paragraf.value;
+
+
+flex.appendChild(div);
+div.appendChild(a);
+a.appendChild(img);
+    div.appendChild(cardBody);
+    cardBody.append(h1, p);
+    // document.body.appendChild(div);
+
+// console.log(flex)
+    // div()
+    
+}
         
         const pagination_div = document.querySelector('.pagination')
         const articles = document.querySelectorAll('.card')
@@ -72,4 +114,20 @@ var swiper = new Swiper(".mySwiper", {
 }
         
 
+
+// let div = document.createElement('div');
+// div.className = ('card');
+
+// let a = document.createElement('a')
+// a.href = '#'
+
+//     let img = document.createElement('img')
+//     img.setAttribute('src', './sourse/Images/Movies/2.jpg');
+//     document.getElementsByClassName('card').appendChild(img);
+
+
+// div.appendChild(a);
+// console.log(div)
+
+ 
 
