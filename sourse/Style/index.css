@@ -12,7 +12,7 @@ a {
 }
 
 body {
-    background-image: url(/jo.jpg);
+    background-image: url(/sourse/Images/Main/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* width: 100%; */
@@ -219,6 +219,54 @@ padding: 20px 0;
 .card-body h1{
 text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+.pagination{
+text-align: center;
+margin: 50px auto;
+padding: 50px;
+}
+.pagination a{
+font-size:20px;
+margin: 20px;
+border-radius: 25px;
+}
+
+
+
+.pagination a:hover{
+    /* background-color: #000; */
+    color: aliceblue;
+    box-shadow: 0px 0px 60px 0px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
