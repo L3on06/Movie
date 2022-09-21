@@ -167,6 +167,7 @@ scale: 1.1;
 
       .swiper-slide img {
     max-width: 100%;
+    height: 35vh;
     object-fit: cover;
         cursor: grab;
     }
@@ -255,14 +256,40 @@ border-radius: 25px;
 
 
 
+/* ////////////////////////////////////////////////////////// */
+/* menagment css */
 
+.add-buttons{
+    width: 100%;
+}
 
+.add-buttons #image{
+    width: 100%;
+    height: 100%;
+}
 
+.add-buttons #title{
+    width: 100%;
+    height: 50px;
+text-align: center;
 
+}
+.add-buttons #paragraf{
+    width: 100%;
+    height: 25px;
+text-align: center;
+}
 
+.add-buttons button{
+width: 100%;
+    height: 40px;
+}
 
+.add-buttons .img{
+height: 400px;
+}
 
-
+/* ////////////////////////////////////////////////////////// */
 
 
 

@@ -48,7 +48,7 @@
                         </a>
                     </li>
                     <div class="search_area">
-                        <input type="text" class="search" placeholder="Search">
+                        <input type="text" class="search" id="searchvalue" placeholder="Search" onkeyup="filter()">
                         <span class="line line0"></span>
                         <span class="line line1"></span>
                     </div>
@@ -126,22 +126,51 @@
 
     <section class="articles">
         <div class="container flex">
-            <!-- <div class="flex"> -->
-            <button onclick="addCard()">
-                <h1>Add Card</h1>
-            </button>
-            <input type="text" id="title">
-            <input type="text" id="paragraf">
             <div class="card">
                 <a href="">
                     <img src="./sourse/Images/Movies/1.jpg" alt="">
                 </a>
                 <div class="card-body">
-                    <h1>Woody Woopecker</h1>
+                    <h1 class="title">Woody Woopecker</h1>
                     <p>komedi , romanc, aksion</p>
                 </div>
             </div>
-
+            <div class="card">
+                <a href="">
+                    <img src="./sourse/Images/Movies/1.jpg" alt="">
+                </a>
+                <div class="card-body">
+                    <h1 class="title"> Woopecker</h1>
+                    <p>komedi , romanc, aksion</p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="./sourse/Images/Movies/1.jpg" alt="">
+                </a>
+                <div class="card-body">
+                    <h1 class="title">Woody Woopecker</h1>
+                    <p>komedi , romanc, aksion</p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="./sourse/Images/Movies/1.jpg" alt="">
+                </a>
+                <div class="card-body">
+                    <h1 class="title">Woody Woopecker</h1>
+                    <p>komedi , romanc, aksion</p>
+                </div>
+            </div>
+            <div class="card">
+                <a href="">
+                    <img src="./sourse/Images/Movies/1.jpg" alt="">
+                </a>
+                <div class="card-body">
+                    <h1 class="title">Woody Woopecker</h1>
+                    <p>komedi , romanc, aksion</p>
+                </div>
+            </div>
             <!-- <div class="card"> -->
             <!-- <a href=""> -->
             <!-- <img src="./sourse/Images/Movies/2.jpg" alt=""> -->
@@ -304,9 +333,7 @@
                     <h1>Woody Woopecker</h1>
                     <p>komedi , romanc, aksion</p>
                 </div> -->
-        </div>
-
-        </div>
+            <!-- </div> -->
         </div>
     </section>
 
