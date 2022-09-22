@@ -19,7 +19,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
     background-position: center;
-     background-attachment: fixed;
+    background-attachment: fixed;
 }
 
 .container {
@@ -32,13 +32,13 @@ body {
     letter-spacing: 4px;
     display: flex;
     align-items: center;
-    color:aliceblue;
+    color: aliceblue;
     font-size: 30px;
     transition: 1.5s;
 }
 
-.logo:hover{
-scale: 1.1;
+.logo:hover {
+    scale: 1.1;
     letter-spacing: 5px;
 }
 
@@ -67,7 +67,7 @@ scale: 1.1;
 
 
 .nav-links:hover {
-    color:#fff;
+    color: #fff;
     box-shadow: 0px 0px 30px 0px #000000;
     letter-spacing: 4px;
 }
@@ -145,7 +145,7 @@ scale: 1.1;
     border: 2px solid aliceblue;
     border-radius: 30px;
     color: #000;
-    transition: 0.5s width cubic-bezier(0.5,-0.5, 0.5, 0.5);
+    transition: 0.5s width cubic-bezier(0.5, -0.5, 0.5, 0.5);
     transition-delay: 0.1s;
 }
 
@@ -165,85 +165,89 @@ scale: 1.1;
 
 
 
-      .swiper-slide img {
+.swiper-slide img {
     max-width: 100%;
     height: 35vh;
     object-fit: cover;
-        cursor: grab;
-    }
-
-
-
-
-      .sponsor{
-        display: flex;
-        background-color: transparent;
-        border: 3px solid rgb(0, 0, 0);
-        width: 70%;
-        height: 10vh;
-        border-radius: 25px;
-        justify-content: center;
-        margin: 50px auto ;
-        cursor: pointer;
-    }
-    .sponsor-img{
-        display: flex;
-    }
-
-    .swiper-button-next::after,
-    .swiper-button-prev::after{
-        color: aliceblue;        
-    }
-
-.flex{
-    justify-content: center;
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-gap: 30px;
-justify-items: center;
+    cursor: grab;
 }
 
-.card{
+
+
+
+.sponsor {
+    display: flex;
+    background-color: transparent;
+    border: 3px solid rgb(0, 0, 0);
+    width: 70%;
+    height: 10vh;
+    border-radius: 25px;
+    justify-content: center;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.sponsor-img {
+    display: flex;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    color: aliceblue;
+}
+
+.flex {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.card {
     margin: 10px;
 }
 
-.card img{
+.card img {
     width: auto;
     height: 50vh;
     display: block;
     margin: 30px auto;
 }
-.card-body{
-    
-padding: 20px 0;
-}
-.card-body h1{
-text-transform: uppercase;
+
+.card-body {
+
+    padding: 20px 0;
 }
 
-
-
-
-
-
-
-
-
-
-.pagination{
-text-align: center;
-margin: 50px auto;
-padding: 50px;
-}
-.pagination a{
-font-size:20px;
-margin: 20px;
-border-radius: 25px;
+.card-body h1 {
+    text-transform: uppercase;
 }
 
 
 
-.pagination a:hover{
+
+
+
+
+
+
+
+.pagination {
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.pagination a {
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+
+
+.pagination a:hover {
     /* background-color: #000; */
     color: aliceblue;
     box-shadow: 0px 0px 60px 0px #000000;
@@ -259,34 +263,47 @@ border-radius: 25px;
 /* ////////////////////////////////////////////////////////// */
 /* menagment css */
 
-.add-buttons{
+.add-buttons {
     width: 100%;
+
 }
 
-.add-buttons #image{
+.add-buttons #image {
     width: 100%;
     height: 100%;
+    text-align: center;
+    border: none;
+outline: none;
+
 }
 
-.add-buttons #title{
+.add-buttons #title {
     width: 100%;
-    height: 50px;
-text-align: center;
-
+    height: 30px;
+    text-align: center;
+    border: none;
+outline: none;
+    margin-bottom: 10px;
 }
-.add-buttons #paragraf{
+
+.add-buttons #paragraf {
     width: 100%;
-    height: 25px;
-text-align: center;
+    height: 35px;
+    text-align: center;
+    border: none;
+outline: none;
+
 }
 
-.add-buttons button{
-width: 100%;
+.add-buttons button {
+    width: 100%;
     height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
-.add-buttons .img{
-height: 400px;
+.add-buttons .img {
+    height: 400px;
 }
 
 /* ////////////////////////////////////////////////////////// */
@@ -307,12 +324,12 @@ height: 400px;
     .menu.active .bar:nth-child(2) {
         opacity: 0;
         transform: translateY(8px) rotate(45deg);
-    
+
     }
 
     .menu.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
-    
+
     }
 
     .menu.active .bar:nth-child(3) {
