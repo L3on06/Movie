@@ -19,7 +19,6 @@ function addCard() {
     let title = document.getElementById('title');
     let paragraf = document.getElementById('paragraf');
     let image = document.getElementById('image');
-
     let flex = document.querySelector('.flex');
 
     let div = document.createElement('div');
@@ -37,6 +36,7 @@ function addCard() {
 
     let h1 = document.createElement('h1');
     h1.innerText = title.value;
+
     title.value = ''
 
     let p = document.createElement('p');
